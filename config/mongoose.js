@@ -5,9 +5,6 @@ const DB = 'mongodb+srv://ankanamishra5:nd1dOBB9DpyynqXe@cluster0.ogxgujn.mongod
 mongoose.connect(DB, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
-	  tls: true, // Enable TLS/SSL
-           tlsCAFile: 'path/to/ca.pem', // Path to the CA certificate file
-           tlsCertificateKeyFile: 'path/to/client.pem',
 });
 
 const db = mongoose.connection;
