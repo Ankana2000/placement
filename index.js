@@ -1,13 +1,13 @@
 const express = require('express');
-const dotenv = require('dotenv');
+
 const db = require('./config/mongoose');
 const session = require('express-session');
 const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');
-const port = process.env.PORT || 8000;
+const port =  8000;
 
 
-dotenv.config({ path: 'config/.env' });
+
 
 const app = express();
 // set ejs as view engine
