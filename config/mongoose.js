@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 //connect to database
 async function main() {
-    const db = await mongoose.connect('mongodb+srv://ankanamishra5:Ankana12356@cluster0.ogxgujn.mongodb.net/?retryWrites=true&w=majority')
+    const db = await mongoose.connect('mongodb+srv://ankumis2000:anku3421@cluster0.ahewrlp.mongodb.net/?retryWrites=true&w=majority')
     module.exports = db;
 }
 
