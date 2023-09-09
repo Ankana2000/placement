@@ -5,15 +5,7 @@ const session = require('express-session');
 const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');
 const port =  8000;
-<<<<<<< HEAD
 
-
-
-
-=======
-
-
->>>>>>> fcf551f69c8333dd0537ba482c83112a078d4da9
 const app = express();
 // set ejs as view engine
 app.set('view engine', 'ejs');
